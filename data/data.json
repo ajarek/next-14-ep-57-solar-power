@@ -1,0 +1,74 @@
+[
+ {  
+    "id": 1,
+    "quantity":1,
+    "name":"ALLPOWERS SF100 Flexible Solar Panel 100W",
+    "description":"ALLPOWERS SF100 Flexible solar panel are made in Monocrystalline solar cells, whose conversion rate can reach 22%-25%. Honeycomb ETFE is used on the surface, and the unevenness forms refraction to collect sunlight from different angles. Coupled with the Solar Connector port with minimal loss, you can get more power at the same time. Great choice for RVs, roofs, campers, trailers, boats, cabins, sheds, tents, yachts.",
+    "image":"https://iallpowers.eu/cdn/shop/files/ALLPOWERSSF100.jpg?v=1710916661&width=800",
+    "price":120
+ },
+ {  
+    "id": 2,
+    "quantity":1,
+    "name":"ALLPOWERS SF100 Flexible Solar Panel 100W",
+    "description":"ALLPOWERS 400W foldable solar panel has high conversion efficiency, which is up to 22%. 400W portable solar panel generates more energy and perform better than conventional solar panels in any weather,even cloudy or cold days.",
+    "image":"https://iallpowers.eu/cdn/shop/products/1-min_1800x1800_720a044c-87d3-4111-83e1-aedb036dbfcb.jpg?v=1680666334&width=800",
+    "price":599
+ },
+ {  
+    "id": 3,
+    "quantity":1,
+    "name":"ALLPOWERS SP035 Foldable Solar Panel 200W",
+    "description":"It is a foldable and portable solar panel for most solar generators. With up to 24% high efficiency monocrystalline solar cell,you can get faster solar recharging under the full sun. Moreover, ALLPOWERS 200W portable solar panel performs better than similar rated polycrystalline solar panels in low-light conditions. It can be your reliable companion during you are going on a camping or travelling in a campervan, allowing you to get solar charge wherever and whenever you need.",
+    "image":"https://iallpowers.eu/cdn/shop/files/SP035SolarPanel.jpg?v=1690295908&width=800",
+    "price":299
+ },
+ {  
+    "id": 4,
+    "quantity":1,
+    "name":"ALLPOWERS SP029 Portable Polycrystalline Solar Panel 140W",
+    "description":"Solar Connector Output can deliver 25A(max)current while the DC port only carries 10A, Dual USB port(5V/2.4A per port) for charging your 5V powered gadgets, and 18V DC output(18V/3A) for charging your laptop or 12V car battery and portable generator, the junction box parallel connecting port for connecting multiple foldable solar panels.",
+    "image":"https://iallpowers.eu/cdn/shop/products/ALLPOWERS120WPortableSolarPanelChargerforLaptops_PowerStation_FoldableUSSolarCellSolarChargerwithMC-4_DC_andUSBOutput_forMostSolarGenerator_PowerStation_Cellphone2_1800x1800_f1c250d9-2012-4802-a87f-1ddf2df2a8bf.jpg?v=1680671089&width=800",
+    "price":169
+ },
+ {  
+    "id": 5,
+    "quantity":1,
+    "name":"ALLPOWERS SP033 Portable Polycrystalline Solar Panel 200W",
+    "description":"ALLPOWERS 200W portable solar panel up to 22% efficiency and 1/3 lighter than the same power of solar silicon. 200W Output can provide more power to your devices and charge it faster.",
+    "image":"https://iallpowers.eu/cdn/shop/files/AP-SP-033-200w-solar-panel_1800x1800_6f729b24-2fb4-4e88-bdfc-4b05aad2eb44.webp?v=1691476946&width=800",
+    "price":279
+ },
+ {  
+    "id": 6,
+    "quantity":1,
+    "name":"ALLPOWERS SP027 Polycrystalline Solar Panel 100W",
+    "description":"ALLPOWERS 100W portable solar panel kit is made from the US, up to 22% efficiency, 1/3 lighter than the same power of solar silicon. The total power increased by 1/3 in comparison with the same portable solar panel kit size.",
+    "image":"https://iallpowers.eu/cdn/shop/products/foldingsolarpanels_1800x1800_60e7b7fa-8ad3-478f-b7cc-b89338ec9354.jpg?v=1680665889&width=800",
+    "price":125
+ },
+ {  
+    "id": 7,
+    "quantity":1,
+    "name":"ALLPOWERS SP026 Foldable Polysilicon Solar Panel 60W",
+    "description":"60W solar cell is made from more solid material of good quality, up to 22% efficiency, providing endless power for laptop and other battery under sun.",
+    "image":"https://iallpowers.eu/cdn/shop/products/33_1800x1800_2fb6acda-5b92-4c52-be54-abda2518ff0f.jpg?v=1680670083&width=800",
+    "price":99
+ },
+ {  
+    "id": 8,
+    "quantity":1,
+    "name":"ALLPOWERS SP020 Monocrystalline Solar Panel 60W",
+    "description":"The ALLPOWERS 60W solar panel is a dependable and affordable power source for charging your laptop, phone, tablet, and other devices whether you're at home or on the go because it generates renewable electricity from the sun's energy.",
+    "image":"https://iallpowers.eu/cdn/shop/files/ALLPOWERSSP020SOLARPANELS_a026038b-b7cd-4f0a-a2b5-a5abf8595c09.jpg?v=1684896093&width=800",
+    "price":69
+ },
+ {  
+    "id": 9,
+    "quantity":1,
+    "name":"ALLPOWERS Monocrystalline Solar Panel - 290 W",
+    "description":"The MSW monocrystalline solar panel makes it easier to start using renewable energy! Thanks to its high energy efficiency, a powerful photovoltaic battery converts 23% of solar energy into electricity. The monocrystalline structure combined with the latest shunt technology enables high efficiency even in the shade. Thanks to its small size, the solar panel can be conveniently used at home and in the garden, as well as on a campsite or on a boat.",
+    "image":"https://assets.expondo.com/asset/product_photos/10062430_photo_1?twic=v1/contain=1024x500",
+    "price":270
+ }
+]

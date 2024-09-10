@@ -3,10 +3,15 @@
 import React from 'react'
 import { useCartStore } from '@/store/cartStore'
 import Image from 'next/image'
-
+import { useToast } from '@/hooks/use-toast'
+import { Button } from '@/components/ui/button'
+import { useRouter } from 'next/navigation'
 const Cart = () => {
-  const { addItemToCart, items, increment, decrement, removeItemFromCart, total } =
+  const { addItemToCart, items, increment, decrement, removeItemFromCart, total, removeAll } =
     useCartStore()
+    const { toast } = useToast()
+    const date = new Date()
+    const router = useRouter()
 
   return (
     <div className=" w-full min-h-[calc(100vh-64px)] flex flex-col max-lg:gap-8  p-4 max-sm:px-1    border-[64px] max-lg:border-[4px] border-gray-900 border-y-0 py-4">
@@ -45,6 +50,38 @@ const Cart = () => {
           ))}
       </div>
       <div className='w-full flex items-center justify-end text-xl mt-4 px-4'>Total: €{(total()).toFixed(2)}</div>
+      <div className='flex w-full justify-end gap-8 mt-8 px-4 '>
+            <Button
+              variant='destructive'
+              onClick={() => removeAll()}
+            >
+              Delete All
+            </Button>
+            <Button
+              onClick={() => {
+                toast({
+                  title: 'Order has been submitted.',
+                  description:
+                    'amount to pay: ' +
+                    total() +
+                    '€, ' +
+                    'date: ' +
+                    date.toLocaleString('en-US', {
+                      weekday: 'long',
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                    }),
+                })
+                setTimeout(() => {
+                  removeAll()
+                  router.push('/')
+                }, 2000)
+              }}
+            >
+              I order panels
+            </Button>
+          </div>
     </div>
   )
 }

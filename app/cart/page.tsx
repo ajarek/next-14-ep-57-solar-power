@@ -9,8 +9,8 @@ const Cart = () => {
     useCartStore()
 
   return (
-    <div className=" w-full min-h-[calc(100vh-64px)] flex flex-col max-lg:gap-8  p-4     border-[64px] border-gray-900 border-y-0 py-4">
-      <div className=" w-full max-h-[200px] overflow-y-auto scrollbar max-sm:max-h-[400px]  p-2">
+    <div className=" w-full min-h-[calc(100vh-64px)] flex flex-col max-lg:gap-8  p-4 max-sm:px-1    border-[64px] max-lg:border-[4px] border-gray-900 border-y-0 py-4">
+      <div className=" w-full max-h-[200px] overflow-y-auto scrollbar max-sm:max-h-[400px]  p-1">
         {items.length > 0 &&
           items.map((item) => (
             <div
@@ -22,12 +22,13 @@ const Cart = () => {
                 alt={item.name}
                 width={50}
                 height={50}
+                className='max-sm:hidden'
               />
 
-              <div className="flex items-center justify-between gap-4 ">
+              <div className="flex items-center justify-between gap-4 max-sm:gap-1 ">
                 <div>{item.name}</div>
                 <div className="flex items-center gap-4">
-                  <div>€{item.price.toFixed(2)}</div>
+                  <div className='max-sm:hidden'>€{item.price.toFixed(2)}</div>
 
                   <div className="flex items-center gap-1">
                     <button onClick={() => decrement(item.id)}>➖</button>

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className=" w-full min-h-[calc(100vh-64px)]  relative border-[64px] border-gray-900 border-y-0">
+    <main className=" w-full min-h-[calc(100vh-64px)]  relative border-[64px] max-sm:border-[4px] border-gray-900 border-y-0">
       <Image
         src="/images/solar-1.jpg"
         alt="Logo"

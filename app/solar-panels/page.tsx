@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 const SolarPanels = () => {
   return (
-    <div className=" w-full min-h-[calc(100vh-64px)]  relative border-[64px] max-lg:border-[8px] border-gray-900 border-y-0 py-4">
+    <div className=" w-full min-h-[calc(100vh-64px)]  relative border-[64px] max-lg:border-[4px] border-gray-900 border-y-0 py-4">
       <h1 className="text-3xl font-bold text-center text-white">
         Solar Panels
       </h1>

@@ -22,12 +22,12 @@ const Links = () => {
 
       <div className='flex items-center gap-8 mr-4 '>
         <Link
-          href='/about'
+          href='/contact'
           className={`flex items-center  text-xl hover:text-primary   ${
             pathname === '/home' ? 'active ' : ''
           }`}
         >
-          About
+          Contact
         </Link>
 
         <Link

@@ -50,7 +50,7 @@ const handleCart = (item: Cart) => {
 }
 
   return (
-    <div className=" w-full min-h-[calc(100vh-64px)] grid grid-cols-2 max-lg:grid-cols-1 max-lg:gap-8  p-4 place-items-center items-center   border-[64px] border-gray-900 border-y-0 py-4">
+    <div className=" w-full min-h-[calc(100vh-64px)] grid grid-cols-2 max-lg:grid-cols-1 max-lg:gap-8  p-4 place-items-center items-center   border-[64px] max-lg:border-[4px] border-gray-900 border-y-0 py-4">
       <div className="relative  ">
         <Image
           src={panel?.image || ''}

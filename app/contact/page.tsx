@@ -39,14 +39,14 @@ const Contact = async () => {
             placeholder='Message'
             required
           />
-          <Button className=' '>Wyślij</Button>
+          <Button className=' '>Send</Button>
         </form>
         <a
           className='w-full flex items-center'
           href='tel:+48573 219 230'
         >
           <Button className='w-full flex items-center'>
-            <Smartphone /> 573 219 230 Zadzwoń
+            <Smartphone /> 573 219 230 Call
           </Button>
         </a>
       </div>
